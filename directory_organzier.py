@@ -45,10 +45,10 @@ if __name__ == '__main__':
     DIRECTORY_TYPES = ['PDF_files', 'Text_files', 'Word_files', 'Excel_files', 'Presentation_files',
                        'Executable_files', 'Picture_files', 'Photoshop_files', 'Video_files', 'Music_files',
                        'Archived_files', 'Torrent_files', 'Python_files']
-    FILE_EXTENSION_TYPE = [['.pdf', '.PDF'], ['.psd', '.PSD'], '.txt', ['.doc', '.docx'], ['.ppt', '.pptx'],
-                           ['.xls', '.xlsx', '.csv'], '.exe', ['.jpg', '.jpeg', '.png', '.JPG'],
+    FILE_EXTENSION_TYPE = [['.pdf', '.PDF'], '.txt', ['.doc', '.docx'], ['.xls', '.xlsx', '.csv'], ['.ppt', '.pptx'],
+                            '.exe', ['.jpg', '.jpeg', '.png', '.JPG'], ['.psd', '.PSD'],
                            ['.avi', '.mov', '.mp4', '.MOV', '.mkv', ], ['.mp3', '.wav'],
-                           ['.zip', '.7z'], '.torrent', '.py']
+                           ['.zip', '.7z', '.rar'], '.torrent', '.py']
 
 path = menu()
 mapping = map_extension_to_folder(path)
